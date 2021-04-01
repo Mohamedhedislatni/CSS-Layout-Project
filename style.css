@@ -1,0 +1,277 @@
+header{
+  position: sticky;
+}  
+.navbar {
+    position: fixed;
+    background-color: white;
+    color: gray;
+    display: flex;
+    width: 100%;
+    top: 0;left: 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.233);
+    align-items: center;
+    height: 80px;
+}
+.icon {
+    height: 30px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%; 
+  margin-right: 200px;
+  list-style-type: none;
+}
+.nav-list .list {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar img{
+  margin-left: 150px;
+}
+.aboutas {
+  
+    color: cyan;
+    font-family: Roboto,Arial,sans-serif;;
+}
+.c {
+    color: gray;
+    font-family: Roboto,Arial,sans-serif;;
+}
+.navbar a:hover {
+    color: cyan;
+}
+.aboutus {
+  margin-top: 120px;
+}
+.icon-section {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.first {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+   padding-top: 10px;
+}
+.column {
+    width: 50%;
+    text-align: left;
+    color: gray;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.75;
+    justify-content: space-between;
+  }
+  .row {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0% 10%;
+  }
+  .column p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+      .row1 {
+        display: flex;
+        justify-content: space-around;
+      }
+      .column1 {
+        width: 20%;
+        height: 350px;
+        color: white;
+        font-family: Work Sans,Arial,sans-serif;;
+        border-radius: 15px;
+        padding-left: 40px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+      }
+      .column1 h2{
+        color: white;
+        font-family: Work Sans,Arial,sans-serif;
+        font-size: 20px;
+      }
+      .column1 img{
+        width: 30px;
+        height: 30px;
+      }
+     .country-option{
+       margin-top: 90px;
+       background: transparent;
+       border: 0;
+     }
+     .country-option1{
+       margin-top: 15px;
+     }
+     select{
+       background: transparent;
+       border: transparent;
+       text-decoration-line: underline;
+       color: white;
+     }
+      
+      .links {
+     margin-top: 40px;
+     color: white;
+ }
+      .logos{
+        margin-top: 80px;
+        display: flex;
+      }
+      .logos h1{
+        padding-left: 30px;
+      }
+      .logos123{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        fill: gray;
+      }
+      .logos123 path:hover {
+        fill: cyan;
+      }
+     
+      .logos h1{
+        width: 33%;
+        font-size: 1.625em;
+        color: #00b39b;
+        font-family: Roboto,Arial,sans-serif;
+        padding-left: 20px;
+      }
+      .platform {
+        margin-top: 50px;
+        background-color: #e5faf8;
+        display:flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+      }
+      .platform-cont {
+        display: flex;
+        flex-direction: column;
+       border-radius: 15px;
+       width: 200px;
+       height: 250px;
+       background-color: white;
+       text-align: center;
+      }
+      .platform-cont img{
+        width: 30px;
+        height: 30px;
+        margin-left: 80px;
+        margin-top: 30px;
+      }
+      .platform h3{
+        color: gray;
+        font-size: 12px;
+      }
+      .platform h1,h2 {
+        color: #00b39b;
+      }
+      .platform h1{
+        font-size: 30px;
+        font-family: Work Sans,Arial,sans-serif;;
+      }
+      .paltform-bloc{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+      }
+      
+      .platform-p{
+        width: 40%;
+        text-align: center;
+        margin-top: 90px;
+      }
+      .platform-p img{
+        margin-top: 120px;
+        width: 300px;
+        height: 300px;
+      }
+      .platform1{
+        margin-top: 90px;
+        margin-bottom: 30px;
+      }
+      .platform2{
+        margin-top: 30px;
+      }
+      .plat{
+        margin-top: 30px;
+      }
+      .text{
+        margin-top: 80px;
+        text-align: center;
+      }
+      .text h1{
+        color: #00b39b;
+        font-family: Work Sans,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+      }
+      .text h3{
+        font-weight: 400;
+        font-family: Roboto,Arial,sans-serif;
+        color: #747474;
+        font-size: 15px;
+      }
+      .city{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 80px 120px;
+        
+      }
+      .city-carte img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .city-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .btn{
+        display: inline-block;
+    vertical-align: middle;
+    
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+      }
+      .city-name h3{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 20px;
+        color: gray;
+      }
+      .join-us{
+        margin-top: 80px;
+        text-align: center;
+      }
+      .join-us h1{
+        font-family: Work Sans,Arial,sans-serif;
+        font-size: 30px;
+        color:rgb(85, 83, 83);
+      }
+      .footer{
+        margin-top: 80px;
+        border-top: 1px solid rgba(0, 0, 0, 0.233);
+        text-align: center;
+        font-size: 12px;
+        color: #ababab;
+      }
